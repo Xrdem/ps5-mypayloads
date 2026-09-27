@@ -1,15 +1,15 @@
 [
   {
     "name": "PKG-Manager",
-    "filename": "PKG-Manager_v1.4.0.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.4.0.elf",
+    "filename": "PKG-Manager_v1.4.1.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.4.1.elf",
     "source": "https://github.com/itsPLK/ps5-pkg-manager/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.4.0/pkg-manager_v1.4.0.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.4.1/pkg-manager_v1.4.1.elf",
     "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
-    "last_update": "2026-09-26",
-    "version": "v1.4.0",
+    "last_update": "2026-09-27",
+    "version": "v1.4.1",
     "category": "Utilities & Tools",
-    "checksum": "3950d1a5ba4429bf1872bf6898859ba70910d95af439225c548cac092582493f"
+    "checksum": "09adaff13b858bb3db519faaea673ee3fa67298081e608d32f6501ed6e9f706e"
   },
   {
     "name": "ps5upload",
