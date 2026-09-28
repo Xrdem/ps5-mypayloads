@@ -290,5 +290,9 @@
   "PKG-Manager_v1.4.0.elf": {
     "download_count": 545,
     "deleted_at": "2026-09-27"
+  },
+  "ps5upload_v5.34.0.elf": {
+    "download_count": 923,
+    "deleted_at": "2026-09-28"
   }
 }
