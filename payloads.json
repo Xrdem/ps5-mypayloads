@@ -1,27 +1,27 @@
 [
   {
-    "name": "ps5upload",
-    "filename": "ps5upload_v5.39.0.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v5.39.0.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v5.39.0/ps5upload-5.39.0.elf",
-    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-    "last_update": "2026-09-29",
-    "version": "v5.39.0",
-    "category": "Networking & Servers",
-    "checksum": "e8f39878d26b190e05403e0429b763dc66aa44180de39e34c51a86cca20856c7"
+    "name": "WebKit-Autoloader-Installer",
+    "filename": "WebKit-Autoloader-Installer_v0.5.1.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.5.1.elf",
+    "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.5.1/webkit-autoloader-installer_v0.5.1.elf",
+    "description": "Installs WebKit Autoloader on homescreen (FW 1.00-5.50 & 7.00-13.60)",
+    "last_update": "2026-09-30",
+    "version": "v0.5.1",
+    "category": "Loaders",
+    "checksum": "80083f76383944e1f87c2d4126e4e067cd70bd8013feb538575bc2cb08258a78"
   },
   {
-    "name": "WebKit-Autoloader-Installer",
-    "filename": "WebKit-Autoloader-Installer_v0.5.0.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.5.0.elf",
-    "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.5.0/webkit-autoloader-installer_v0.5.0.elf",
-    "description": "Installs WebKit Autoloader on homescreen (FW 1.00-5.50 & 7.00-13.60)",
+    "name": "ps5upload",
+    "filename": "ps5upload_v5.39.1.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v5.39.1.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v5.39.1/ps5upload-5.39.1.elf",
+    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
     "last_update": "2026-09-29",
-    "version": "v0.5.0",
-    "category": "Loaders",
-    "checksum": "83c2128520267515fe2f197db35427bb95b7273934e52ad3c6bf668a4ef27b7f"
+    "version": "v5.39.1",
+    "category": "Networking & Servers",
+    "checksum": "a50d66033f66cb9d6600c810066b699e59b1a0cc3d7e98bffd5a0b6eb9ebd1a3"
   },
   {
     "name": "pldmgr",
@@ -34,6 +34,18 @@
     "version": "v0.5.2",
     "category": "Utilities & Tools",
     "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c"
+  },
+  {
+    "name": "ps5-app-dumper",
+    "filename": "ps5-app-dumper_v2.00.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.00.elf",
+    "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
+    "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.00/ps5-app-dumper_v2.00.elf",
+    "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
+    "last_update": "2026-09-29",
+    "version": "v2.00",
+    "category": "Utilities & Tools",
+    "checksum": "b6fea71afb8937fcd1a933116c620e989acba25b7049eaeaa00cdc1bd604d686"
   },
   {
     "name": "PKG-Manager",
@@ -239,18 +251,6 @@
     "version": "v0.17",
     "category": "Utilities & Tools",
     "checksum": "2f296d3f1e69b65439bb5dc362f0f6504f6dc9f245fa16a3683e9d7ec9533773"
-  },
-  {
-    "name": "ps5-app-dumper",
-    "filename": "ps5-app-dumper_v1.11.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v1.11.elf",
-    "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
-    "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v1.11/ps5-app-dumper.elf",
-    "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
-    "last_update": "2026-07-28",
-    "version": "v1.11",
-    "category": "Utilities & Tools",
-    "checksum": "42763a6230df8ef3bf82253e9a4290e39d7c1e4b61a0a9a4477368f1d6440e1d"
   },
   {
     "name": "zftpd",
