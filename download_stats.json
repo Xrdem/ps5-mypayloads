@@ -310,5 +310,17 @@
   "WebKit-Autoloader-Installer_v0.5.0.elf": {
     "download_count": 3894,
     "deleted_at": "2026-09-30"
+  },
+  "CheatRunner_v0.17.elf": {
+    "download_count": 15363,
+    "deleted_at": "2026-09-30"
+  },
+  "ps5upload_v5.39.1.elf": {
+    "download_count": 2280,
+    "deleted_at": "2026-09-30"
+  },
+  "WebKit-Autoloader-Installer_v0.5.1.elf": {
+    "download_count": 5314,
+    "deleted_at": "2026-09-30"
   }
 }
