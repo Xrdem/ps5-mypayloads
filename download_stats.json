@@ -330,5 +330,9 @@
   "zftpd_v1.5.0.elf": {
     "download_count": 6858,
     "deleted_at": "2026-10-01"
+  },
+  "CheatRunner_v0.17.1.elf": {
+    "download_count": 5545,
+    "deleted_at": "2026-10-02"
   }
 }
