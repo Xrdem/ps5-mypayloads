@@ -106,19 +106,19 @@ def add_payload():
             category = existing_categories[idx-1]
     
     print(f"\nFetching latest release info for {owner}/{repo} on {domain}...")
-        try:
-            if domain == "github.com":
-                cmd = ["gh", "api", f"repos/{owner}/{repo}/releases"]
-                result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-                release = json.loads(result.stdout)[0] # Listeden en son (en üstteki) sürümü al
-            else:
-                api_url = f"https://{domain}/api/v1/repos/{owner}/{repo}/releases"
-                req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-                with urllib.request.urlopen(req) as response:
-                    release = json.loads(response.read().decode('utf-8'))[0] # Listeden en son sürümü al
-        except Exception as e:
-            print(f"Error fetching release info: {e}")
-            return
+    try:
+        if domain == "github.com":
+            cmd = ["gh", "api", f"repos/{owner}/{repo}/releases"]
+            result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+            release = json.loads(result.stdout)[0]
+        else:
+            api_url = f"https://{domain}/api/v1/repos/{owner}/{repo}/releases"
+            req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                release = json.loads(response.read().decode('utf-8'))[0]
+    except Exception as e:
+        print(f"Error fetching release info: {e}")
+        return
 
     filename_match = re.search(r"/([^/]+\.(elf|bin|zip))$", url)
     original_filename = filename_match.group(1) if filename_match else None
@@ -146,7 +146,7 @@ def add_payload():
         print("Error: Could not find a suitable .elf, .bin or .zip asset in the latest release.")
         return
 
-#    source_url = f"https://{domain}/{owner}/{repo}/releases"
+    source_url = f"https://{domain}/{owner}/{repo}/releases"
 #    if any(p.get("source") == source_url for p in payloads):
 #        print(f"Error: A payload from {source_url} already exists in the JSON.")
 #        return
