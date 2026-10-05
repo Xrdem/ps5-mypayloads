@@ -12,7 +12,7 @@ from datetime import datetime
 
 JSON_FILE = "payloads.json"
 PAYLOADS_DIR = "payloads"
-BASE_URL = "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror"
+BASE_URL = "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror"
 STATS_FILE = "download_stats.json"
 
 def get_repo_info(url):
@@ -159,8 +159,8 @@ If you have suggestions for a new payload to be added or if there's an important
 
 
 def get_mirror_assets():
-    owner = "itsPLK"
-    repo = "ps5-payloads-mirror"
+    owner = "Xrdem"
+    repo = "ps5-mypayloads"
     try:
         cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/tags/payloads-mirror"]
         result = subprocess.run(cmd, capture_output=True, text=True)
@@ -173,8 +173,8 @@ def get_mirror_assets():
 
 def cleanup_and_record_stats():
     print("\nChecking for stale release assets to record stats and clean up...")
-    owner = "itsPLK"
-    repo = "ps5-payloads-mirror"
+    owner = "Xrdem"
+    repo = "ps5-mypayloads"
     
     try:
         with open(JSON_FILE, "r") as f:
