@@ -146,10 +146,10 @@ def add_payload():
         print("Error: Could not find a suitable .elf, .bin or .zip asset in the latest release.")
         return
 
-    source_url = f"https://{domain}/{owner}/{repo}/releases"
-    if any(p.get("source") == source_url for p in payloads):
-        print(f"Error: A payload from {source_url} already exists in the JSON.")
-        return
+#    source_url = f"https://{domain}/{owner}/{repo}/releases"
+#    if any(p.get("source") == source_url for p in payloads):
+#        print(f"Error: A payload from {source_url} already exists in the JSON.")
+#        return
 
     gh_url = selected_asset["browser_download_url"]
     new_version = release["tag_name"]
