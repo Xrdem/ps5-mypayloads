@@ -12,7 +12,7 @@ from datetime import datetime
 
 JSON_FILE = "payloads.json"
 PAYLOADS_DIR = "payloads"
-BASE_URL = "https://xrdem.github.io/ps5-mypayloads/payloads"
+BASE_URL = "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror/"
 STATS_FILE = "download_stats.json"
 
 def get_repo_info(url):
