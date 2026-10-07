@@ -448,8 +448,9 @@ def update_payloads(target_name=None):
         else:
             print(f"  No suitable asset found for {source}")
                 
+# Sadece senin GitHub Release'inde GERÇEKTEN VARSA URL'yi Xrdem yap, yoksa eski çalışan linke dokunma
     for item in payloads:
-        if item.get("filename"):
+        if item.get("filename") and item["filename"] in mirror_assets:
             item["url"] = f"{BASE_URL}/{item['filename']}"
             
     payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
