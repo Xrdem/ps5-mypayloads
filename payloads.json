@@ -2,7 +2,7 @@
   {
     "name": "PS5SX2",
     "filename": "PS5SX2_vk-285-162.elf",
-    "url": "https://xrdem.github.io/ps5-mypayloads/payloads/PS5SX2_vk-285-162.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-162.elf",
     "source": "https://github.com/Swordpdf/PS5SX2/releases",
     "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-162/ps5sx2-aio.elf",
     "description": "PCSX2, the PS2 emulator, running natively on a jailbroken PS5",
