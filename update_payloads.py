@@ -38,14 +38,14 @@ def get_repo_info(url):
 def get_latest_release(domain, owner, repo):
     try:
         if domain == "github.com":
-            cmd = ["gh", "api", f"repos/{owner}/{repo}/releases"]
+            cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/latest"]
             result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-            return json.loads(result.stdout)[0]
+            return json.loads(result.stdout)
         else:
-            api_url = f"https://{domain}/api/v1/repos/{owner}/{repo}/releases"
+            api_url = f"https://{domain}/api/v1/repos/{owner}/{repo}/releases/latest"
             req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
             with urllib.request.urlopen(req) as response:
-                return json.loads(response.read().decode('utf-8'))[0]
+                return json.loads(response.read().decode('utf-8'))
     except Exception as e:
         print(f"Error fetching {domain}/{owner}/{repo}: {e}")
         return None
@@ -448,9 +448,8 @@ def update_payloads(target_name=None):
         else:
             print(f"  No suitable asset found for {source}")
                 
-# Sadece senin GitHub Release'inde GERÇEKTEN VARSA URL'yi Xrdem yap, yoksa eski çalışan linke dokunma
     for item in payloads:
-        if item.get("filename") and item["filename"] in mirror_assets:
+        if item.get("filename"):
             item["url"] = f"{BASE_URL}/{item['filename']}"
             
     payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
