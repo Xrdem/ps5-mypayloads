@@ -12,6 +12,18 @@
     "checksum": "b52c7a70c266826974314417bc059063b6e8ab0b8cc9537471f65f0e4915560d"
   },
   {
+    "name": "PS5-Game-Compressor",
+    "filename": "PS5-Game-Compressor_v1.1.3-smp17.elf",
+    "url": "https://xrdem.github.io/ps5-mypayloads/payloads/PS5-Game-Compressor_v1.1.3-smp17.elf",
+    "source": "https://github.com/keieksof/PS5-Game-Compressor/releases",
+    "source_direct": "https://github.com/keieksof/PS5-Game-Compressor/releases/download/v1.1.3-smp17/game-compressor.elf",
+    "description": "Standalone PS5 payload for compressing, unpacking, validating, repairing, and moving ShadowMountPlus-mounted games from a simple web UI.",
+    "last_update": "2026-10-07",
+    "version": "v1.1.3-smp17",
+    "category": "Utilities & Tools",
+    "checksum": "916cd9f8539e6ebab77892c352ff9ecb4de3ba4a90f6f49cdac7505616e2131c"
+  },
+  {
     "name": "ProsperoMgr",
     "filename": "ProsperoMgr_v1.1.elf",
     "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//ProsperoMgr_v1.1.elf",
@@ -22,17 +34,5 @@
     "version": "v1.1",
     "category": "Utilities & Tools",
     "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
-  },
-  {
-    "name": "PS5-Game-Compressor",
-    "filename": "PS5-Game-Compressor_v1.0.4.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5-Game-Compressor_v1.0.4.elf",
-    "source": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases",
-    "source_direct": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.4/game-compressor.elf",
-    "description": "Standalone PS5 payload for compressing, unpacking, validating, repairing, and moving ShadowMountPlus-mounted games from a simple web UI.",
-    "last_update": "2026-08-21",
-    "version": "v1.0.4",
-    "category": "Utilities & Tools",
-    "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
   }
 ]
