@@ -1,5 +1,17 @@
 [
   {
+    "name": "PS5SX2",
+    "filename": "PS5SX2_vk-285-177.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-177.elf",
+    "source": "https://github.com/Swordpdf/PS5SX2/releases",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-177/PS5SX2Installer.elf",
+    "description": "PCSX2, the PS2 emulator, running natively on a jailbroken PS5",
+    "last_update": "2026-10-19",
+    "version": "vk-285-177",
+    "category": "Emulator",
+    "checksum": "6b1be3ea24ec8144b27b2a1f3e279cd17574f3093e9431abf8579dcc6c0bfae9"
+  },
+  {
     "name": "PS5-Game-Compressor",
     "filename": "PS5-Game-Compressor_v1.1.5-smp17.elf",
     "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5-Game-Compressor_v1.1.5-smp17.elf",
@@ -10,18 +22,6 @@
     "version": "v1.1.5-smp17",
     "category": "Utilities & Tools",
     "checksum": "9bfc8841fe75eff09e1d36148a4305ebb37a64c7b833b0fc616f2ff8efd0ba9e"
-  },
-  {
-    "name": "PS5SX2",
-    "filename": "PS5SX2_vk-285-171.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-171.elf",
-    "source": "https://github.com/Swordpdf/PS5SX2/releases",
-    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2Installer.elf",
-    "description": "PCSX2, the PS2 emulator, running natively on a jailbroken PS5",
-    "last_update": "2026-10-14",
-    "version": "vk-285-171",
-    "category": "Emulator",
-    "checksum": "6b1be3ea24ec8144b27b2a1f3e279cd17574f3093e9431abf8579dcc6c0bfae9"
   },
   {
     "name": "ProsperoMgr",
