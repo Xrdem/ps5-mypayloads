@@ -1,15 +1,15 @@
 [
   {
     "name": "PS5SX2",
-    "filename": "PS5SX2_vk-285-177.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-177.elf",
+    "filename": "PS5SX2_vk-285-182.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-182.elf",
     "source": "https://github.com/Swordpdf/PS5SX2/releases",
-    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-177/PS5SX2Installer.elf",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-182/PS5SX2Installer.elf",
     "description": "PCSX2, the PS2 emulator, running natively on a jailbroken PS5",
-    "last_update": "2026-10-19",
-    "version": "vk-285-177",
+    "last_update": "2026-10-30",
+    "version": "vk-285-182",
     "category": "Emulator",
-    "checksum": "6b1be3ea24ec8144b27b2a1f3e279cd17574f3093e9431abf8579dcc6c0bfae9"
+    "checksum": "efdec4f8d968ef4a7c1880e75d26b96d212a042a6c208de46f0a859609f6224c"
   },
   {
     "name": "PS5-Game-Compressor",
