@@ -1,5 +1,17 @@
 [
   {
+    "name": "ProsperoMgr",
+    "filename": "ProsperoMgr_v1.2.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//ProsperoMgr_v1.2.elf",
+    "source": "https://github.com/notmaj0r/ProsperoMgr/releases",
+    "source_direct": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2/ProsperoMgr.elf",
+    "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
+    "last_update": "2026-11-09",
+    "version": "v1.2",
+    "category": "Utilities & Tools",
+    "checksum": "127394cc4f1ac7347fea509e010e80bab7b5ee13d820665474cdc3928d173bce"
+  },
+  {
     "name": "PS5SX2",
     "filename": "PS5SX2_vk-285-190.elf",
     "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-190.elf",
@@ -22,17 +34,5 @@
     "version": "v1.1.5-smp17",
     "category": "Utilities & Tools",
     "checksum": "9bfc8841fe75eff09e1d36148a4305ebb37a64c7b833b0fc616f2ff8efd0ba9e"
-  },
-  {
-    "name": "ProsperoMgr",
-    "filename": "ProsperoMgr_v1.1.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//ProsperoMgr_v1.1.elf",
-    "source": "https://github.com/notmaj0r/ProsperoMgr/releases",
-    "source_direct": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.1/ProsperoMgr.elf",
-    "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
-    "last_update": "2026-09-28",
-    "version": "v1.1",
-    "category": "Utilities & Tools",
-    "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c"
   }
 ]
