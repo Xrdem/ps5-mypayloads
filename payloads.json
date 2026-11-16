@@ -1,25 +1,25 @@
 [
   {
     "name": "ProsperoMgr",
-    "filename": "ProsperoMgr_v1.2.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//ProsperoMgr_v1.2.elf",
+    "filename": "ProsperoMgr_v1.2.1.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//ProsperoMgr_v1.2.1.elf",
     "source": "https://github.com/notmaj0r/ProsperoMgr/releases",
-    "source_direct": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2/ProsperoMgr.elf",
+    "source_direct": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2.1/ProsperoMgr.elf",
     "description": "A Web-Based All-In-One homebrew manager for your PlayStation 5",
-    "last_update": "2026-11-09",
-    "version": "v1.2",
+    "last_update": "2026-11-15",
+    "version": "v1.2.1",
     "category": "Utilities & Tools",
-    "checksum": "127394cc4f1ac7347fea509e010e80bab7b5ee13d820665474cdc3928d173bce"
+    "checksum": "f9240e53ac5f035b36fb6eca2845dd49827eddfb133d1bbb2810b1a025db9c5b"
   },
   {
     "name": "PS5SX2",
-    "filename": "PS5SX2_vk-285-190.elf",
-    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-190.elf",
+    "filename": "PS5SX2_vk-285-321.elf",
+    "url": "https://github.com/Xrdem/ps5-mypayloads/releases/download/payloads-mirror//PS5SX2_vk-285-321.elf",
     "source": "https://github.com/Swordpdf/PS5SX2/releases",
-    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-190/PS5SX2Installer.elf",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-321/PS5SX2Installer.elf",
     "description": "PCSX2, the PS2 emulator, running natively on a jailbroken PS5",
-    "last_update": "2026-11-05",
-    "version": "vk-285-190",
+    "last_update": "2026-11-15",
+    "version": "vk-285-321",
     "category": "Emulator",
     "checksum": "efdec4f8d968ef4a7c1880e75d26b96d212a042a6c208de46f0a859609f6224c"
   },
